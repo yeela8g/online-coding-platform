@@ -24,7 +24,7 @@ export const BlockCode = () => {
   const fetchData = async () => {
     try {
       const res = await fetch(
-        `https://localhost:4000/blockcode/${codeBlockId}`
+        `https://online-coding-platform.onrender.com/blockcode/${codeBlockId}`
       );
       if (res.status !== 200) {
         return alert("can not get codeBlock data");
@@ -39,7 +39,7 @@ export const BlockCode = () => {
   const updateCodeBlock = async (newCode) => {
     try {
       const res = await fetch(
-        `https://localhost:4000/blockcode/${codeBlockId}`,
+        `https://online-coding-platform.onrender.com/blockcode/${codeBlockId}`,
         {
           method: "PUT",
           headers: {
@@ -59,7 +59,7 @@ export const BlockCode = () => {
 
   useEffect(() => {
 
-    const socket = io("https://localhost:4000", { transports: ["websocket"] })
+    const socket = io("https://online-coding-platform.onrender.com", { transports: ["websocket"] })
     setSocket(socket);
 
     fetchData();
