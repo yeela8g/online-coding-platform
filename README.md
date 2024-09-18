@@ -61,7 +61,9 @@ You can access the live application here: [Online Coding Platform](https://onlin
 `cd ../client`
 2. **Install dependencies**:
 `npm install`
-3. **Start the client**:
+3. **Change the requests URL**:
+ use `localhost` with the correct server port.
+4. **Start the client**:
 `npm start`
 
 ---
