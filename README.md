@@ -5,6 +5,7 @@ This platform combines educational content with real-time collaboration to suppo
 ## Live Demo
 You can access the live application here: [Online Coding Platform](https://online-coding-platform-zgnx.vercel.app/)
 
+![image](https://github.com/user-attachments/assets/9b767277-3107-46ea-b2fa-03054c458a30)
 
 ---
 
