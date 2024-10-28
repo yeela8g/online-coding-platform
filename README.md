@@ -1,6 +1,6 @@
 # Online Coding Platform
 
-This platform combines educational content with real-time collaboration to support students in learning JavaScript. It allows Tom, a JavaScript lecturer, to continue teaching and monitoring his students' progress, even remotely.
+This platform combines educational content with real-time collaboration to support students in learning JavaScript. It allows JavaScript lecturers to continue teaching and monitoring their students progress, even remotely.
 
 ## Live Demo
 You can access the live application here: [Online Coding Platform](https://online-coding-platform-zgnx.vercel.app/)
